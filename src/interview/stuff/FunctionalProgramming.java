@@ -38,10 +38,12 @@ public class FunctionalProgramming {
 		Arrays.stream(new String[] {
 				"Ram","Robert","Rahim"
 		}).filter(s -> s.startsWith("Ro"))
-		.map(String::toLowerCase)
+		.map(String::toLowerCase)//intermediate operations return back a stream
 		//.map(r -> r.charAt(2))
 		.sorted()
-		.forEach(System.out::println);
+		//.forEach(System.out::println);
+		.forEach(ord -> System.out.println(ord));
+		
 		
 	}
 }
