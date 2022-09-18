@@ -4,7 +4,7 @@ public class ProtectedModifierAccessExample {
 
 	public static void main(String[] args) {
 		
-		Monkey a = new Monkey();
+		Monkey123 a = new Monkey123();
 		a.printage();
 		
 	}
@@ -14,7 +14,7 @@ class AnimalThree {
 	protected int age=98;
 }
 
-class Monkey extends AnimalThree {
+class Monkey123 extends AnimalThree {
 	
 	public void printage ()
 	{
