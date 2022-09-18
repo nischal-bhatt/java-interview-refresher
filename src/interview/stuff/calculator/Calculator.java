@@ -33,3 +33,35 @@ class Calc extends Thread {
 		}
 	}
 }
+
+
+/*
+ * java new features
+ * java 5
+ * 1. generics
+ * 2. enhanced for
+ * 3. autoboxing
+ * 4. varargs
+ * 5. static import
+ * 6. concurrent collections
+ * 7. locks 
+ * 
+ * java 7
+ * 1. diamond operator
+ * 2. try with resources 
+ * 3. multiple catches
+ * 4.
+ * 5.
+ * 6.
+ * 7.
+ * 
+ * 
+ * java 8 
+ * 1.lambda
+ * 2.streams
+ * 3.
+ * 4.
+ * 5.
+ * 6.
+ * 7.
+ */
