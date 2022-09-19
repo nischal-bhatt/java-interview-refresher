@@ -25,7 +25,7 @@ public class BinarySearchImpl {
         int[] sortedNumbers = sortAlgorithm.sort(numbers);
         System.out.println(sortAlgorithm);
         // Search the array
-        return 666;
+        return 789;
     }
     
     public BinarySearchImpl()
